@@ -11,3 +11,10 @@ This is a rigorous cross-disciplinary learning project combining low-level syste
 1. Write a static parser using Python (integrated with Qiskit) that takes a compiled `.qasm` file as input.
 2. Transform it into an Abstract Syntax Tree (AST) to reconstruct the high-level quantum algorithm structure from a reverse engineering perspective (e.g., identifying hidden Quantum Fourier Transforms (QFT) or Grover operators).
 3. Build a simple "obfuscated circuit evaluator" to analyze whether the quantum circuit is vulnerable to topological inference attacks.
+
+# Dependence
+## qiskit
+- `pip install qiskit-ibm-runtime`
+- `pip install jupyter`
+## MQT Bench
+- `pip install mqt.bench`
